@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Intouch() {
 
 
@@ -10,7 +12,7 @@ function Intouch() {
              tenetur velit rerum repellat blanditiis, 
             consequatur id sunt accusamus quae quidem, deserunt perspiciatis.
         </p>
-        
+        <Link to="/">Back to home page</Link>
       </>
     )
   }

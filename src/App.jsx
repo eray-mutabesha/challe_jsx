@@ -8,19 +8,16 @@ function App() {
   return (
     <>
     <div className='home_page'>
-    <div className='header'>
+    
+     <div className='home_page_div'>
+     <h1>Welcome to my portfolio</h1>
+      <p>Hello, and welcome to my portfolio! I'm <strong>ERAY MUTABESHA</strong>, a passionate front-end developer with a keen eye for crafting visually appealing and user-friendly web experiences. With 3 years of experience in the field, I thrive on bringing designs to life through clean, efficient code and innovative solutions.</p>
+     </div>
+     <div className='header'>
         <Link to="/About">About me</Link>
         <Link to="/Skils">Skills</Link>
-        <Link to="/Intouch">Let's keel in touch</Link>
+        <Link to="/Intouch">Let's keep in touch</Link>
      </div>
-      <h1>Welcome to my personal page</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, facere
-         asperiores. Natus pariatur quos eum perferendis aut ratione neque
-         quod dolorum, tempore rerum nemo cum tenetur aliquid sint est non.
-         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam nam vitae est suscipit, nihil quam 
-         autem assumenda hic quis earum eius animi, culpa ea totam, at minus placeat eveniet! Nisi.</p>
-       
-        
     </div>
       
     </>

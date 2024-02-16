@@ -4,10 +4,11 @@ import App from './App'
 import './index.css'
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import Erere from './assets/composant/Erere'
+
 import About from './assets/composant/About'
 import Intouch from './assets/composant/Intouch'
 import Skils from './assets/composant/Skils'
+import Erere from '../public/Erere'
 
 const route=createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const route=createBrowserRouter([
   },
   {
     path:"*",
-    element:<Erere/>
+    element:<Erere />
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(

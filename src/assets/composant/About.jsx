@@ -7,7 +7,7 @@ function About() {
       <>
       <div className="about_div">
         <div>
-        <img src="src\assets\images\erayphoto.jpg" alt="" />
+        <img src="public\images\erayphoto.jpg" alt="" />
         </div>
       <div>
         <h2>I'm Eray MUTABESHA</h2>

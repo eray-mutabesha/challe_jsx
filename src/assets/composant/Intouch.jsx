@@ -12,13 +12,6 @@ function Intouch() {
              tenetur velit rerum repellat blanditiis, 
             consequatur id sunt accusamus quae quidem, deserunt perspiciatis.
         </p>
-        
- 
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-solid fa-envelope"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <FontAwesomeIcon icon="fa-brands fa-instagram" />
         <Link to="/">Back to home page</Link>
       </>
     )
